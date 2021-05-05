@@ -1,4 +1,4 @@
-{% load static %}
+{% static load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,14 +14,14 @@
     <div class="row">
         <div class="col-lg-3">
             <div class="card card-body h-100 border-info" id="profile-wrapper">
-                <img class="border border-success" id="profile-pic" src="{% 'images/profilepic2.jpg' %}" />
+                <img class="border border-success" id="profile-pic" src="{% static 'images/profilepic2.jpg' %}" />
                 <h5>Narottam Aswal </h5> <hr>
                 <p>I Love Coding, Doing Research And Collaborating.</p>
  <h4>Connect</h4>
 <ul class="social-links">
-                    <a href="mailto:narottam98678@gmail.com" ><li><img class="social" src="{% 'images/mail.png' %}"></li></a>
-                    <a href="https://www.linkedin.com/in/narottam-aswal/" ><li><img class="social" src="{% 'images/linkedin.jpg' %}"></li></a>
-                    <a href="http://github.com/narottamaswal/" ><li><img class="social" src="{% 'images/git.png'%}"></li></a>
+                    <a href="mailto:narottam98678@gmail.com" ><li><img class="social" src="{% static 'images/mail.png' %}"></li></a>
+                    <a href="https://www.linkedin.com/in/narottam-aswal/" ><li><img class="social" src="{% static 'images/linkedin.jpg' %}"></li></a>
+                    <a href="http://github.com/narottamaswal/" ><li><img class="social" src="{% static 'images/git.png'%}"></li></a>
                 </ul>
             </div>
         </div>
@@ -37,7 +37,7 @@ But I Feel The Worst When A Person Lacks The Resources To Learn Something Or Doe
                 <p>  Other Than This, I Love Sports And Music. Sometimes I Play Cricket With My Friends For Fun.
                     </p>
                 <p>Quote Of My Life :  <q><i><b>Acceptance is the first step towards improvement.</b></i></q> </p>
-<p>Download Resume :  <a href="https://drive.google.com/file/d/1bTgIhJE2172beo00RkNSBO6RNJMQ4uD-/view?usp=sharing" ><img class="social" src="{% 'images/download.jpg' %}"></a></p> 
+<p>Download Resume :  <a href="https://drive.google.com/file/d/1bTgIhJE2172beo00RkNSBO6RNJMQ4uD-/view?usp=sharing" ><img class="social" src="{% static 'images/download.jpg' %}"></a></p> 
 
             </div>
         </div>
@@ -54,19 +54,19 @@ But I Feel The Worst When A Person Lacks The Resources To Learn Something Or Doe
 <div class="row">
 <div class="col-lg-4">
 <div class="card card-body h-10" style="background-color:#ebd7d3;">
-<h5><b>Job Portal</b></h5>  <p> Technologies: Django, Bootstrap, Scrapy, MySQL</p><a href="https://github.com/narottamaswal/Job-Portal-Django-" ><li><img class="social" src="{% 'images/git.png' %}"></li></a>
+<h5><b>Job Portal</b></h5>  <p> Technologies: Django, Bootstrap, Scrapy, MySQL</p><a href="https://github.com/narottamaswal/Job-Portal-Django-" ><li><img class="social" src="{% static 'images/git.png' %}"></li></a>
 
 </div>
 </div>
 <div class="col-lg-4">
 <div class="card card-body h-10" style="background-color:#ebe3d3;">
-<h5><b>Task Management App</b></h5> <p> Technologies: React Native,Expo,<br> Firebase</p><a href="https://github.com/narottamaswal/TaskManagementApp-ReactNative" ><li><img class="social" src="{% 'images/git.png' %}"></li></a>
+<h5><b>Task Management App</b></h5> <p> Technologies: React Native,Expo,<br> Firebase</p><a href="https://github.com/narottamaswal/TaskManagementApp-ReactNative" ><li><img class="social" src="{% static 'images/git.png' %}"></li></a>
 
 </div>
 </div>
 <div class="col-lg-4">
 <div class="card card-body h-10" style="background-color:#d3ebd9;">
-<h5><b>Events Management</b></h5> <p> Technologies: Django, Bootstrap, MySQL</p><a href="http://github.com/narottamaswal/" ><li><img class="social" src="{% 'images/git.png' %}"></li></a>
+<h5><b>Events Management</b></h5> <p> Technologies: Django, Bootstrap, MySQL</p><a href="http://github.com/narottamaswal/" ><li><img class="social" src="{% static 'images/git.png' %}"></li></a>
 
 </div>
 </div></div>
@@ -74,18 +74,18 @@ But I Feel The Worst When A Person Lacks The Resources To Learn Something Or Doe
 <div class="row">
 <div class="col-lg-4">
 	<div class="card card-body h-10" style="background-color:#ededed;">
-<h5><b>Documents SPA</b></h5>  <p> Technologies: Spring, Spring Boot, Bootstrap, MySQL</p><a href="https://github.com/narottamaswal/DocumentsSPA" ><li><img class="social" src="{% 'images/git.png' %}"></li></a>
+<h5><b>Documents SPA</b></h5>  <p> Technologies: Spring, Spring Boot, Bootstrap, MySQL</p><a href="https://github.com/narottamaswal/DocumentsSPA" ><li><img class="social" src="{% static 'images/git.png' %}"></li></a>
 
 </div></div>
 <div class="col-lg-4">
 		<div class="card card-body h-10" style="background-color:#d3e6eb;">
 	<h5><b>Portfolio Website</b></h5> <p> Technologies: Django, Bootstrap, Scrapy, MySQL</p>
 <li><a href="http://github.com/narottamaswal/" >
-<img class="social" src="{% 'images/git.png' %}"></a>&nbsp;&nbsp;<a href="http://narottamaswal.herokuapp.com/" ><img class="social" src="{% 'images/web.jpg' %}"></a></li>
+<img class="social" src="{% static 'images/git.png' %}"></a>&nbsp;&nbsp;<a href="http://narottamaswal.herokuapp.com/" ><img class="social" src="{% static 'images/web.jpg' %}"></a></li>
 </div></div>
 <div class="col-lg-4">
 		<div class="card card-body h-10" style="background-color:#ddd1de">
-<h5><b>Doctors Appointment System (CLI)</b></h5> <p> Technologies: C++</p><a href="https://github.com/narottamaswal/DoctorsAppointmentSystem-CLI" ><li><img class="social" src="{% 'images/git.png' %}"></li></a>
+<h5><b>Doctors Appointment System (CLI)</b></h5> <p> Technologies: C++</p><a href="https://github.com/narottamaswal/DoctorsAppointmentSystem-CLI" ><li><img class="social" src="{% static 'images/git.png' %}"></li></a>
 
 
 
