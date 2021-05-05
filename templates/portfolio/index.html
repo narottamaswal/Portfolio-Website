@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <title>Narottam  Aswal</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="{% static 'css/main.css'%}"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    
+<link rel="stylesheet" href="{% static 'css/main.css' %}"/>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}"/>
 </head>
 <body>
 <br>
@@ -13,16 +14,14 @@
     <div class="row">
         <div class="col-lg-3">
             <div class="card card-body h-100 border-info" id="profile-wrapper">
-                <img class="border border-success" id="profile-pic" src="{% static 'images/profilepic.jpg' %}" />
-
+                <img class="border border-success" id="profile-pic" src="{% 'images/profilepic2.jpg' %}" />
                 <h5>Narottam Aswal </h5> <hr>
                 <p>I Love Coding, Doing Research And Collaborating.</p>
  <h4>Connect</h4>
 <ul class="social-links">
-                    <a href="https://instagram.com/funkey.01" ><li><img class="social" src="{% static 'images/i1.png' %}"></li></a>
-                    <a href="mailto:narottam98678@gmail.com" ><li><img class="social" src="{% static 'images/i3.png' %}"></li></a>
-                    <a href="https://github.com/narottamaswal" ><li><img class="social" src="{% static 'images/i5.png' %}"></li></a>  
-    <a href="/download">Download PDF</a>
+                    <a href="mailto:narottam98678@gmail.com" ><li><img class="social" src="{% 'images/mail.png' %}"></li></a>
+                    <a href="https://www.linkedin.com/in/narottam-aswal/" ><li><img class="social" src="{% 'images/linkedin.jpg' %}"></li></a>
+                    <a href="http://github.com/narottamaswal/" ><li><img class="social" src="{% 'images/git.png'%}"></li></a>
                 </ul>
             </div>
         </div>
@@ -30,31 +29,94 @@
             <div class="card card-body h-100 border-info">
                 <h4>About Me</h4> <hr>
                 <p>
-                   Hi This Is Narottam Aswal. I'm From India And Soon To Be 20 Years Of Age. I'm An Aspiring Python And Web Developer Who Loves To Learn And Create New Things.
+                   Hi! This Is Narottam Aswal. I'm From India And Soon To Be 20 Years Of Age. I'm currently pursuing my MCA. I'm An Aspiring Full Stack Developer Who Loves To Learn And Create New Things.
           In 2017, I Elected BSc in IT Which Introduced Me To Programming And Coding.</p>
                 <p>For Me Knowledge Is The Only Thing That Can Make You Rich.
 But I Feel The Worst When A Person Lacks The Resources To Learn Something Or Does Not Have Those Resources. This Is My Only Dream And Aim, That I Look Up To For The Next Few Years To Contribute Back To Society With The Vision That IT Gave Me.</p>
 
                 <p>  Other Than This, I Love Sports And Music. Sometimes I Play Cricket With My Friends For Fun.
-                    Other Than That I Love Rap Music Beats And Rhymes. Sometimes, I Try To Write Too. </p>
-                <p>Quote Of My Life :  <q><i><b>Always Start To End..</b></i></q> </p>
-
+                    </p>
+                <p>Quote Of My Life :  <q><i><b>Acceptance is the first step towards improvement.</b></i></q> </p>
+<p>Download Resume :  <a href="https://drive.google.com/file/d/1bTgIhJE2172beo00RkNSBO6RNJMQ4uD-/view?usp=sharing" ><img class="social" src="{% 'images/download.jpg' %}"></a></p> 
 
             </div>
         </div>
     </div>
 <br>
-    <div class="row">
+
+  
+      <div class="row">
+        <div class="col-lg-12">
+      
+      <div class="card card-body h-40" >
+                <h4>Projects</h4>
+                <hr>
+<div class="row">
+<div class="col-lg-4">
+<div class="card card-body h-10" style="background-color:#ebd7d3;">
+<h5><b>Job Portal</b></h5>  <p> Technologies: Django, Bootstrap, Scrapy, MySQL</p><a href="https://github.com/narottamaswal/Job-Portal-Django-" ><li><img class="social" src="{% 'images/git.png' %}"></li></a>
+
+</div>
+</div>
+<div class="col-lg-4">
+<div class="card card-body h-10" style="background-color:#ebe3d3;">
+<h5><b>Task Management App</b></h5> <p> Technologies: React Native,Expo,<br> Firebase</p><a href="https://github.com/narottamaswal/TaskManagementApp-ReactNative" ><li><img class="social" src="{% 'images/git.png' %}"></li></a>
+
+</div>
+</div>
+<div class="col-lg-4">
+<div class="card card-body h-10" style="background-color:#d3ebd9;">
+<h5><b>Events Management</b></h5> <p> Technologies: Django, Bootstrap, MySQL</p><a href="http://github.com/narottamaswal/" ><li><img class="social" src="{% 'images/git.png' %}"></li></a>
+
+</div>
+</div></div>
+<br>
+<div class="row">
+<div class="col-lg-4">
+	<div class="card card-body h-10" style="background-color:#ededed;">
+<h5><b>Documents SPA</b></h5>  <p> Technologies: Spring, Spring Boot, Bootstrap, MySQL</p><a href="https://github.com/narottamaswal/DocumentsSPA" ><li><img class="social" src="{% 'images/git.png' %}"></li></a>
+
+</div></div>
+<div class="col-lg-4">
+		<div class="card card-body h-10" style="background-color:#d3e6eb;">
+	<h5><b>Portfolio Website</b></h5> <p> Technologies: Django, Bootstrap, Scrapy, MySQL</p>
+<li><a href="http://github.com/narottamaswal/" >
+<img class="social" src="{% 'images/git.png' %}"></a>&nbsp;&nbsp;<a href="http://narottamaswal.herokuapp.com/" ><img class="social" src="{% 'images/web.jpg' %}"></a></li>
+</div></div>
+<div class="col-lg-4">
+		<div class="card card-body h-10" style="background-color:#ddd1de">
+<h5><b>Doctors Appointment System (CLI)</b></h5> <p> Technologies: C++</p><a href="https://github.com/narottamaswal/DoctorsAppointmentSystem-CLI" ><li><img class="social" src="{% 'images/git.png' %}"></li></a>
+
+
+
+
+</div>
+</div>
+
+
+
+</div>
+</div>
+</div></div>
+<br>   
+ <div class="row">
         <div class="col-lg-6">
-            <div class="card card-body h-100">
+            <div class="card card-body h-80">
                 <h4>Education</h4> <hr>
 
                 <table  border="0.5px solid ">
                         <tr align="center">
-                        <td align="center"><b>Course/Degree</b></td>
+                        <td align="center"><b>Course/Degree</b </td>
                         <td align="center"><b>Board/Institute</b></td>
                         <td><b>Year Of Passing</b></td>
                     </tr>
+			<tr align="center">
+                        <td align="center">MCA</td>
+                        <td align="center">Vivekanand Education Society's Institute of Technology 
+                          </td>
+                        <td align="center">2022</td>
+                    </tr>
+
                     <tr align="center">
                         <td align="center">BSc (I.T.)</td>
                         <td align="center">D.G. Ruparel College
@@ -66,15 +128,14 @@ But I Feel The Worst When A Person Lacks The Resources To Learn Something Or Doe
                         <td align="center">R.D. National College</td>
                         <td align="center">2017</td>
                     </tr>
-                    <tr align="center">
-                        <td align="center">SSC</td>
-                        <td align="center">Maharashtra Board</td>
-                        <td align="center">2015</td>
-                    </tr>
-                </table>
+                                    </table>
 <hr>
                 <h6>Certifications</h6>
                 <ul>
+                    <li>
+                        Programming, data structures and algorithms with Python (NPTEL)
+                    </li><br>
+
                     <li>
                         Maharashtra State Certificate Of Information Technology (MSC-IT)
                     </li><br>
@@ -99,44 +160,21 @@ But I Feel The Worst When A Person Lacks The Resources To Learn Something Or Doe
                     </tr>
 <br<br>
                      <tr>
-                         <td align="center"><ul><li>Python, Java, </li><br><li>C++, HTML </li><br> <li>CSS, Javscript </li><br></ul></td>
-                        <td align="center"><ul><li>Django, React Js  </li><br> <li>Jquery, Scrapy, </li><br> <li>BS4, Numpy </li><br></ul></td>
-                        <td align="center"><ul><li>MySQL, SQLite3 </li><br><li>SQL Server </li><br></ul></td>
+                         <td align="center"><ul><li>Python, Java, </li><br><li>C,C++,Node.js  </li><br> <li> Javscript</li><br></ul></td>
+                        <td align="center"><ul><li>Django,React Js,Spring,  </li><br> <li>Spring Boot,React Native </li><br><li>Jquery, Scrapy, </li><br> <li>BS4, Numpy </li><br></ul></td>
+                        <td align="center"><ul><li>MySQL, SQLite3 </li><br><li>SQL Server</li><br><li>Firebase, MongoDB</li></ul></td>
                     </tr>
 
                 </table>
-
-
-
-
                 <hr>
                 <h6>Other Skills</h6>
-                <p>Fundamental Knowledge Of Computer Networking, Information Security And Linux Operating System.</p>
+                <p>Data Structures and Algorithms<br>Fundamental Knowledge Of Computer Networking, Information Security And Linux Operating System.</p>
 
 
             </div>
         </div>
     </div>
-<br>
-    <div class="row">
-        <div class="col-lg-6">
-            <div class="card card-body h-100" >
-                <h4>How I Learn</h4>
-                <hr>
 
-                <p>I Always Love To Learn By Making Something Like A Simple Webpage Or An App And That Even From Scratch. By Doing That It Increases My Thinking Capability As Well It Keeps Thinks Simple And Clear.</p>
-                <p>Also, I Prefer Reading The Official Documentation Of Any Framework Or Library, I'm Working On. It's Always Useful For A Beginner. Other Than That I Watch Youtube Tutorials And Courses On Skillshare.</p>
-            </div>
-        </div>
-        <div class="col-lg-6">
-            <div class="card card-body h-100">
-                <h4>Collaboration</h4> <hr>
-
-<p>
-   I Love Collaborating And Sharing My Experience With Others On My Blog & Social Media.
-Aside From Building Small Projects I Would Love To Enter A Position Where I Can Be Part Of A Bigger Team & Learn From Others With More Experience Than Myself.
-</p>           <br>
-            </div>
         </div>
     </div>
 </div>
