@@ -19,7 +19,7 @@ def download_file(request):
     # Define text file name
     filename = 'CV Narottam Aswal.pdf'
     # Define the full file path
-    filepath = BASE_DIR + '/static/images/' + filename
+    filepath = BASE_DIR + '/' + filename
     # Open the file for reading content
     path = open(filepath, 'r')
     # Set the mime type
