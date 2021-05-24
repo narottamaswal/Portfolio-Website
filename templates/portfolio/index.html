@@ -8,23 +8,8 @@
 <link rel="stylesheet" href="{% static 'css/main.css' %}"/>
     <link rel="stylesheet" href="{% static 'css/main.css' %}"/>
 </head>
-	<script>
-var i = 0;
-var txt = 'cout<<\"Have a nice day :)\"';
-var speed = 100;
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("demo").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-else{
-setTimeout(() => { console.log("World!");document.getElementById("demo").innerHTML += ';';
- }, 1000);
-}
-}
-	</script>
-<body onload="typeWriter()">
+	
+<body>
 <br>
 <div class="container">
     <div class="row">
